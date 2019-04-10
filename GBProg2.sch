@@ -1,0 +1,946 @@
+EESchema Schematic File Version 4
+LIBS:GBProg2-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GBProg2-rescue:atmel_ATMEGA8515-16AU-RESCUE-GBProg2 U2
+U 1 1 5A6C9B50
+P 6600 3200
+F 0 "U2" H 5800 5200 50  0000 C CNN
+F 1 "ATMEGA8515-16AU" H 6100 5100 50  0000 C CNN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 6600 3200 50  0001 C CIN
+F 3 "" H 6600 3200 50  0001 C CNN
+	1    6600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:conn_USB_OTG-RESCUE-GBProg2 J1
+U 1 1 5A6C9CC9
+P 1050 1300
+F 0 "J1" H 1105 1767 50  0000 C CNN
+F 1 "USB_OTG" H 1105 1676 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B" H 1200 1250 50  0001 C CNN
+F 3 "" H 1200 1250 50  0001 C CNN
+	1    1050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR01
+U 1 1 5A6CA676
+P 1500 1000
+F 0 "#PWR01" H 1500 850 50  0001 C CNN
+F 1 "+5V" H 1515 1173 50  0000 C CNN
+F 2 "" H 1500 1000 50  0001 C CNN
+F 3 "" H 1500 1000 50  0001 C CNN
+	1    1500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR02
+U 1 1 5A6CA6E5
+P 950 1900
+F 0 "#PWR02" H 950 1650 50  0001 C CNN
+F 1 "GND" H 955 1727 50  0000 C CNN
+F 2 "" H 950 1900 50  0001 C CNN
+F 3 "" H 950 1900 50  0001 C CNN
+	1    950  1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 1300 2    60   Output ~ 0
+D+
+Text GLabel 1450 1400 2    60   Output ~ 0
+D-
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR03
+U 1 1 5A6CA7D2
+P 1800 7000
+F 0 "#PWR03" H 1800 6750 50  0001 C CNN
+F 1 "GND" H 1805 6827 50  0000 C CNN
+F 2 "" H 1800 7000 50  0001 C CNN
+F 3 "" H 1800 7000 50  0001 C CNN
+	1    1800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR04
+U 1 1 5A6CA7E3
+P 1250 4650
+F 0 "#PWR04" H 1250 4500 50  0001 C CNN
+F 1 "+5V" H 1265 4823 50  0000 C CNN
+F 2 "" H 1250 4650 50  0001 C CNN
+F 3 "" H 1250 4650 50  0001 C CNN
+	1    1250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:device_C-RESCUE-GBProg2 C8
+U 1 1 5A6CA829
+P 6950 950
+F 0 "C8" H 7000 850 50  0000 L CNN
+F 1 "100n" H 7000 750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6988 800 50  0001 C CNN
+F 3 "" H 6950 950 50  0001 C CNN
+	1    6950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR05
+U 1 1 5A6CA8EA
+P 6600 800
+F 0 "#PWR05" H 6600 650 50  0001 C CNN
+F 1 "+5V" H 6615 973 50  0000 C CNN
+F 2 "" H 6600 800 50  0001 C CNN
+F 3 "" H 6600 800 50  0001 C CNN
+	1    6600 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR06
+U 1 1 5A6CA8FF
+P 3450 5450
+F 0 "#PWR06" H 3450 5300 50  0001 C CNN
+F 1 "+5V" H 3465 5623 50  0000 C CNN
+F 2 "" H 3450 5450 50  0001 C CNN
+F 3 "" H 3450 5450 50  0001 C CNN
+	1    3450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR07
+U 1 1 5A6CA914
+P 6950 1100
+F 0 "#PWR07" H 6950 850 50  0001 C CNN
+F 1 "GND" H 6955 927 50  0000 C CNN
+F 2 "" H 6950 1100 50  0001 C CNN
+F 3 "" H 6950 1100 50  0001 C CNN
+	1    6950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR08
+U 1 1 5A6CA929
+P 3450 5900
+F 0 "#PWR08" H 3450 5650 50  0001 C CNN
+F 1 "GND" H 3455 5727 50  0000 C CNN
+F 2 "" H 3450 5900 50  0001 C CNN
+F 3 "" H 3450 5900 50  0001 C CNN
+	1    3450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:device_CP-RESCUE-GBProg2 C3
+U 1 1 5A6CAB43
+P 3450 5650
+F 0 "C3" H 3500 5550 50  0000 L CNN
+F 1 "4,7u" H 3500 5450 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 3488 5500 50  0001 C CNN
+F 3 "" H 3450 5650 50  0001 C CNN
+	1    3450 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 5350 0    60   Input ~ 0
+D+
+Text GLabel 1250 5250 0    60   Input ~ 0
+D-
+$Comp
+L GBProg2-rescue:device_C-RESCUE-GBProg2 C2
+U 1 1 5A6CB12E
+P 1200 6650
+F 0 "C2" H 1250 6550 50  0000 L CNN
+F 1 "100n" H 1250 6450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1238 6500 50  0001 C CNN
+F 3 "" H 1200 6650 50  0001 C CNN
+	1    1200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR09
+U 1 1 5A6CB1C0
+P 1200 6900
+F 0 "#PWR09" H 1200 6650 50  0001 C CNN
+F 1 "GND" H 1205 6727 50  0000 C CNN
+F 2 "" H 1200 6900 50  0001 C CNN
+F 3 "" H 1200 6900 50  0001 C CNN
+	1    1200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR010
+U 1 1 5A6CB36D
+P 6950 800
+F 0 "#PWR010" H 6950 650 50  0001 C CNN
+F 1 "+5V" H 6965 973 50  0000 C CNN
+F 2 "" H 6950 800 50  0001 C CNN
+F 3 "" H 6950 800 50  0001 C CNN
+	1    6950 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR011
+U 1 1 5A6CB3E3
+P 6600 5300
+F 0 "#PWR011" H 6600 5050 50  0001 C CNN
+F 1 "GND" H 6605 5127 50  0000 C CNN
+F 2 "" H 6600 5300 50  0001 C CNN
+F 3 "" H 6600 5300 50  0001 C CNN
+	1    6600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:device_Crystal-RESCUE-GBProg2 Y1
+U 1 1 5A6CB5A4
+P 5100 2200
+F 0 "Y1" V 5054 2331 50  0000 L CNN
+F 1 "3.6864MHz" V 5145 2331 50  0000 L CNN
+F 2 "Crystals:Crystal_HC49-4H_Vertical" H 5100 2200 50  0001 C CNN
+F 3 "" H 5100 2200 50  0001 C CNN
+	1    5100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR012
+U 1 1 5A6CB64F
+P 4650 2450
+F 0 "#PWR012" H 4650 2200 50  0001 C CNN
+F 1 "GND" H 4655 2277 50  0000 C CNN
+F 2 "" H 4650 2450 50  0001 C CNN
+F 3 "" H 4650 2450 50  0001 C CNN
+	1    4650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1100 1500 1100
+Wire Wire Line
+	1500 1100 1500 1000
+Wire Wire Line
+	950  1700 950  1800
+Wire Wire Line
+	1050 1700 1050 1800
+Wire Wire Line
+	1050 1800 950  1800
+Connection ~ 950  1800
+Wire Wire Line
+	1350 1300 1450 1300
+Wire Wire Line
+	1350 1400 1450 1400
+Wire Wire Line
+	3450 5800 3450 5900
+Wire Wire Line
+	3450 5500 3450 5450
+Wire Wire Line
+	1200 6800 1200 6900
+Wire Wire Line
+	6600 1200 6600 800 
+Wire Wire Line
+	6600 5200 6600 5300
+$Comp
+L GBProg2-rescue:device_C-RESCUE-GBProg2 C5
+U 1 1 5A6CB9B0
+P 4900 2000
+F 0 "C5" H 4950 1900 50  0000 L CNN
+F 1 "22p" H 4950 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4938 1850 50  0001 C CNN
+F 3 "" H 4900 2000 50  0001 C CNN
+	1    4900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GBProg2-rescue:device_C-RESCUE-GBProg2 C6
+U 1 1 5A6CBBFE
+P 4900 2400
+F 0 "C6" H 4750 2300 50  0000 L CNN
+F 1 "22p" H 4700 2200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4938 2250 50  0001 C CNN
+F 3 "" H 4900 2400 50  0001 C CNN
+	1    4900 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 2000 5100 2000
+Wire Wire Line
+	5050 2400 5100 2400
+Wire Wire Line
+	4750 2000 4650 2000
+Wire Wire Line
+	4650 2000 4650 2400
+Wire Wire Line
+	4650 2400 4750 2400
+Connection ~ 4650 2400
+Wire Wire Line
+	5100 2000 5100 2050
+Connection ~ 5100 2000
+Wire Wire Line
+	5100 2400 5100 2350
+Connection ~ 5100 2400
+$Comp
+L GBProg2-rescue:GBProg2-rescue_GB-CART-ladecadence-RESCUE-GBProg2 J3
+U 1 1 5A6CC39F
+P 10200 2550
+F 0 "J3" H 10428 2508 60  0000 L CNN
+F 1 "GB-CART" H 10428 2402 60  0000 L CNN
+F 2 "ladecadence:GB-Cart-NDS-Aliexpress" H 10100 3150 60  0001 C CNN
+F 3 "" H 10100 3150 60  0000 C CNN
+	1    10200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:device_LED-RESCUE-GBProg2 D2
+U 1 1 5A6CDDA4
+P 8050 5600
+F 0 "D2" V 8088 5482 50  0000 R CNN
+F 1 "ACT" V 7997 5482 50  0000 R CNN
+F 2 "LEDs:LED_0805" H 8050 5600 50  0001 C CNN
+F 3 "" H 8050 5600 50  0001 C CNN
+	1    8050 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GBProg2-rescue:device_R-RESCUE-GBProg2 R3
+U 1 1 5A6CE00C
+P 8050 5250
+F 0 "R3" H 8120 5296 50  0000 L CNN
+F 1 "220" H 8120 5205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 7980 5250 50  0001 C CNN
+F 3 "" H 8050 5250 50  0001 C CNN
+	1    8050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR013
+U 1 1 5A6CE0AF
+P 950 2550
+F 0 "#PWR013" H 950 2400 50  0001 C CNN
+F 1 "+5V" H 965 2723 50  0000 C CNN
+F 2 "" H 950 2550 50  0001 C CNN
+F 3 "" H 950 2550 50  0001 C CNN
+	1    950  2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2550 950  2700
+Wire Wire Line
+	8050 5400 8050 5450
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR014
+U 1 1 5A6CE1C9
+P 8050 5800
+F 0 "#PWR014" H 8050 5550 50  0001 C CNN
+F 1 "GND" H 8055 5627 50  0000 C CNN
+F 2 "" H 8050 5800 50  0001 C CNN
+F 3 "" H 8050 5800 50  0001 C CNN
+	1    8050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5750 8050 5800
+Wire Wire Line
+	7600 4400 8050 4400
+Wire Wire Line
+	8050 4400 8050 5100
+$Comp
+L GBProg2-rescue:device_LED-RESCUE-GBProg2 D1
+U 1 1 5A6CEB45
+P 950 3200
+F 0 "D1" V 988 3082 50  0000 R CNN
+F 1 "PWR" V 897 3082 50  0000 R CNN
+F 2 "LEDs:LED_0805" H 950 3200 50  0001 C CNN
+F 3 "" H 950 3200 50  0001 C CNN
+	1    950  3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GBProg2-rescue:device_R-RESCUE-GBProg2 R1
+U 1 1 5A6CEB4C
+P 950 2850
+F 0 "R1" H 1020 2896 50  0000 L CNN
+F 1 "220" H 1020 2805 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 880 2850 50  0001 C CNN
+F 3 "" H 950 2850 50  0001 C CNN
+	1    950  2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3000 950  3050
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR015
+U 1 1 5A6CEB54
+P 950 3400
+F 0 "#PWR015" H 950 3150 50  0001 C CNN
+F 1 "GND" H 955 3227 50  0000 C CNN
+F 2 "" H 950 3400 50  0001 C CNN
+F 3 "" H 950 3400 50  0001 C CNN
+	1    950  3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3350 950  3400
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR016
+U 1 1 5A6CEE8F
+P 9550 950
+F 0 "#PWR016" H 9550 800 50  0001 C CNN
+F 1 "+5V" H 9565 1123 50  0000 C CNN
+F 2 "" H 9550 950 50  0001 C CNN
+F 3 "" H 9550 950 50  0001 C CNN
+	1    9550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR017
+U 1 1 5A6CEEBC
+P 9550 4300
+F 0 "#PWR017" H 9550 4050 50  0001 C CNN
+F 1 "GND" H 9555 4127 50  0000 C CNN
+F 2 "" H 9550 4300 50  0001 C CNN
+F 3 "" H 9550 4300 50  0001 C CNN
+	1    9550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4200 9550 4200
+Wire Wire Line
+	9550 4200 9550 4300
+Wire Wire Line
+	9550 950  9550 1100
+Wire Wire Line
+	9550 1100 9850 1100
+$Comp
+L GBProg2-rescue:conn_CONN_02X03-RESCUE-GBProg2 J2
+U 1 1 5A6CF30A
+P 4900 3350
+F 0 "J2" H 4900 3665 50  0000 C CNN
+F 1 "ISP" H 4900 3574 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4900 2150 50  0001 C CNN
+F 3 "" H 4900 2150 50  0001 C CNN
+	1    4900 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 2400 2    60   Output ~ 0
+A0
+Text GLabel 7800 2500 2    60   Output ~ 0
+A1
+Text GLabel 7800 2600 2    60   Output ~ 0
+A2
+Text GLabel 7800 2700 2    60   Output ~ 0
+A3
+Text GLabel 7800 2800 2    60   Output ~ 0
+A4
+Text GLabel 7800 2900 2    60   Output ~ 0
+A5
+Text GLabel 7800 3000 2    60   Output ~ 0
+A6
+Text GLabel 7800 3100 2    60   Output ~ 0
+A7
+Text GLabel 7800 1500 2    60   Output ~ 0
+A8
+Text GLabel 7800 1600 2    60   Output ~ 0
+A9
+Text GLabel 7800 1700 2    60   Output ~ 0
+A10
+Text GLabel 7800 1800 2    60   Output ~ 0
+A11
+Text GLabel 7800 1900 2    60   Output ~ 0
+A12
+Text GLabel 7800 2000 2    60   Output ~ 0
+A13
+Text GLabel 7800 2100 2    60   Output ~ 0
+A14
+Text GLabel 7800 2200 2    60   Output ~ 0
+A15
+Wire Wire Line
+	7600 1500 7800 1500
+Wire Wire Line
+	7600 1600 7800 1600
+Wire Wire Line
+	7600 1700 7800 1700
+Wire Wire Line
+	7600 1800 7800 1800
+Wire Wire Line
+	7600 1900 7800 1900
+Wire Wire Line
+	7600 2000 7800 2000
+Wire Wire Line
+	7600 2100 7800 2100
+Wire Wire Line
+	7600 2200 7800 2200
+Wire Wire Line
+	7600 2400 7800 2400
+Wire Wire Line
+	7600 2500 7800 2500
+Wire Wire Line
+	7600 2600 7800 2600
+Wire Wire Line
+	7600 2700 7800 2700
+Wire Wire Line
+	7600 2800 7800 2800
+Wire Wire Line
+	7600 2900 7650 2900
+Wire Wire Line
+	7600 3000 7700 3000
+Wire Wire Line
+	7600 3100 7750 3100
+Text GLabel 7800 3300 2    60   BiDi ~ 0
+D0
+Wire Wire Line
+	7600 3300 7800 3300
+Text GLabel 7800 3400 2    60   BiDi ~ 0
+D1
+Text GLabel 7800 3500 2    60   BiDi ~ 0
+D2
+Text GLabel 7800 3600 2    60   BiDi ~ 0
+D3
+Text GLabel 7800 3700 2    60   BiDi ~ 0
+D4
+Text GLabel 7800 3800 2    60   BiDi ~ 0
+D5
+Text GLabel 7800 3900 2    60   BiDi ~ 0
+D6
+Text GLabel 7800 4000 2    60   BiDi ~ 0
+D7
+Wire Wire Line
+	7600 3400 7800 3400
+Wire Wire Line
+	7600 3500 7800 3500
+Wire Wire Line
+	7600 3600 7800 3600
+Wire Wire Line
+	7600 3700 7800 3700
+Wire Wire Line
+	7600 3800 7800 3800
+Wire Wire Line
+	7600 3900 7800 3900
+Wire Wire Line
+	7600 4000 7800 4000
+Text GLabel 8200 4800 2    39   Output ~ 0
+~CRST
+Wire Wire Line
+	7600 4800 8200 4800
+Text GLabel 8200 4700 2    39   Output ~ 0
+~CE
+Text GLabel 8200 4600 2    39   Output ~ 0
+~OE
+Text GLabel 8200 4500 2    39   Output ~ 0
+~WE
+Wire Wire Line
+	7600 4700 8200 4700
+Wire Wire Line
+	7600 4600 8200 4600
+Wire Wire Line
+	7600 4500 8200 4500
+Text GLabel 9600 1300 0    39   Input ~ 0
+~WE
+Text GLabel 9600 1400 0    39   Input ~ 0
+~OE
+Text GLabel 9600 1500 0    39   Input ~ 0
+~CE
+Text GLabel 9600 1600 0    60   Input ~ 0
+A0
+Text GLabel 9600 1700 0    60   Input ~ 0
+A1
+Text GLabel 9600 1800 0    60   Input ~ 0
+A2
+Text GLabel 9600 1900 0    60   Input ~ 0
+A3
+Text GLabel 9600 2000 0    60   Input ~ 0
+A4
+Text GLabel 9600 2200 0    60   Input ~ 0
+A6
+Text GLabel 9600 2100 0    60   Input ~ 0
+A5
+Text GLabel 9600 2300 0    60   Input ~ 0
+A7
+Text GLabel 9600 2400 0    60   Input ~ 0
+A8
+Text GLabel 9600 2500 0    60   Input ~ 0
+A9
+Text GLabel 9600 2600 0    60   Input ~ 0
+A10
+Text GLabel 9600 2700 0    60   Input ~ 0
+A11
+Text GLabel 9600 2800 0    60   Input ~ 0
+A12
+Text GLabel 9600 2900 0    60   Input ~ 0
+A13
+Text GLabel 9600 3000 0    60   Input ~ 0
+A14
+Text GLabel 9600 3100 0    60   Input ~ 0
+A15
+Wire Wire Line
+	9600 1300 9850 1300
+Wire Wire Line
+	9600 1400 9850 1400
+Wire Wire Line
+	9600 1500 9850 1500
+Wire Wire Line
+	9600 1600 9850 1600
+Wire Wire Line
+	9600 1700 9850 1700
+Wire Wire Line
+	9600 1800 9850 1800
+Wire Wire Line
+	9600 1900 9850 1900
+Wire Wire Line
+	9600 2000 9850 2000
+Wire Wire Line
+	9600 2100 9850 2100
+Wire Wire Line
+	9600 2200 9850 2200
+Wire Wire Line
+	9600 2300 9850 2300
+Wire Wire Line
+	9600 2400 9850 2400
+Wire Wire Line
+	9600 2500 9850 2500
+Wire Wire Line
+	9600 2600 9850 2600
+Wire Wire Line
+	9600 2700 9850 2700
+Wire Wire Line
+	9600 2800 9850 2800
+Wire Wire Line
+	9600 2900 9850 2900
+Wire Wire Line
+	9600 3000 9850 3000
+Wire Wire Line
+	9600 3100 9850 3100
+Text GLabel 9600 3200 0    60   BiDi ~ 0
+D0
+Text GLabel 9600 3300 0    60   BiDi ~ 0
+D1
+Text GLabel 9600 3400 0    60   BiDi ~ 0
+D2
+Text GLabel 9600 3500 0    60   BiDi ~ 0
+D3
+Text GLabel 9600 3600 0    60   BiDi ~ 0
+D4
+Text GLabel 9600 3700 0    60   BiDi ~ 0
+D5
+Text GLabel 9600 3800 0    60   BiDi ~ 0
+D6
+Text GLabel 9600 3900 0    60   BiDi ~ 0
+D7
+Wire Wire Line
+	9600 3200 9850 3200
+Wire Wire Line
+	9600 3300 9850 3300
+Wire Wire Line
+	9600 3400 9850 3400
+Wire Wire Line
+	9600 3500 9850 3500
+Wire Wire Line
+	9600 3600 9850 3600
+Wire Wire Line
+	9600 3700 9850 3700
+Wire Wire Line
+	9600 3800 9850 3800
+Wire Wire Line
+	9600 3900 9850 3900
+Text GLabel 9600 4000 0    39   Input ~ 0
+~CRST
+Wire Wire Line
+	9600 4000 9850 4000
+Text GLabel 8200 4900 2    60   Output ~ 0
+AUX
+Text GLabel 9600 4100 0    60   Input ~ 0
+AUX
+Wire Wire Line
+	9600 4100 9850 4100
+Wire Wire Line
+	8200 4900 7600 4900
+Text GLabel 7800 4200 2    60   Input ~ 0
+TXD
+Wire Wire Line
+	7800 4200 7600 4200
+Text GLabel 7800 4300 2    60   Output ~ 0
+RXD
+Wire Wire Line
+	7800 4300 7600 4300
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR018
+U 1 1 5A6D4118
+P 5250 3500
+F 0 "#PWR018" H 5250 3250 50  0001 C CNN
+F 1 "GND" H 5255 3327 50  0000 C CNN
+F 2 "" H 5250 3500 50  0001 C CNN
+F 3 "" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR019
+U 1 1 5A6D4147
+P 5250 3200
+F 0 "#PWR019" H 5250 3050 50  0001 C CNN
+F 1 "+5V" H 5265 3373 50  0000 C CNN
+F 2 "" H 5250 3200 50  0001 C CNN
+F 3 "" H 5250 3200 50  0001 C CNN
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3250 5250 3250
+Wire Wire Line
+	5250 3250 5250 3200
+Wire Wire Line
+	5150 3450 5250 3450
+Wire Wire Line
+	5250 3450 5250 3500
+$Comp
+L GBProg2-rescue:device_R-RESCUE-GBProg2 R2
+U 1 1 5A6D4286
+P 5350 1300
+F 0 "R2" H 5420 1346 50  0000 L CNN
+F 1 "10K" H 5420 1255 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5280 1300 50  0001 C CNN
+F 3 "" H 5350 1300 50  0001 C CNN
+	1    5350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR020
+U 1 1 5A6D43B0
+P 5350 1100
+F 0 "#PWR020" H 5350 950 50  0001 C CNN
+F 1 "+5V" H 5365 1273 50  0000 C CNN
+F 2 "" H 5350 1100 50  0001 C CNN
+F 3 "" H 5350 1100 50  0001 C CNN
+	1    5350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1500 5350 1500
+Wire Wire Line
+	5350 1450 5350 1500
+Wire Wire Line
+	5350 1150 5350 1100
+Text GLabel 4500 3250 0    60   Input ~ 0
+MISO
+Text GLabel 5250 3350 2    60   Output ~ 0
+MOSI
+Text GLabel 4500 3350 0    60   Output ~ 0
+SCK
+Text GLabel 4500 3450 0    60   Output ~ 0
+RST
+Wire Wire Line
+	4500 3250 4650 3250
+Wire Wire Line
+	4500 3350 4650 3350
+Wire Wire Line
+	4500 3450 4650 3450
+Wire Wire Line
+	5150 3350 5250 3350
+Text GLabel 8250 2950 2    60   Input ~ 0
+MOSI
+Text GLabel 5200 1500 0    60   Output ~ 0
+RST
+$Comp
+L GBProg2-rescue:device_C-RESCUE-GBProg2 C7
+U 1 1 5A6D4AF3
+P 5350 1700
+F 0 "C7" H 5400 1800 50  0000 L CNN
+F 1 "100n" H 5400 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5388 1550 50  0001 C CNN
+F 3 "" H 5350 1700 50  0001 C CNN
+	1    5350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR021
+U 1 1 5A6D4B65
+P 5350 1850
+F 0 "#PWR021" H 5350 1600 50  0001 C CNN
+F 1 "GND" H 5250 1850 50  0000 C CNN
+F 2 "" H 5350 1850 50  0001 C CNN
+F 3 "" H 5350 1850 50  0001 C CNN
+	1    5350 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 1500
+Text GLabel 8250 3050 2    60   Output ~ 0
+MISO
+Text GLabel 8250 3150 2    60   Input ~ 0
+SCK
+Wire Wire Line
+	8250 3150 7750 3150
+Wire Wire Line
+	7750 3150 7750 3100
+Connection ~ 7750 3100
+Wire Wire Line
+	8250 3050 7700 3050
+Wire Wire Line
+	7700 3050 7700 3000
+Connection ~ 7700 3000
+Wire Wire Line
+	8250 2950 7650 2950
+Wire Wire Line
+	7650 2950 7650 2900
+Connection ~ 7650 2900
+$Comp
+L GBProg2-rescue:device_C-RESCUE-GBProg2 C4
+U 1 1 5A6CC556
+P 3800 5650
+F 0 "C4" H 3850 5550 50  0000 L CNN
+F 1 "100n" H 3850 5450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3838 5500 50  0001 C CNN
+F 3 "" H 3800 5650 50  0001 C CNN
+	1    3800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR022
+U 1 1 5A6CC55D
+P 3800 5800
+F 0 "#PWR022" H 3800 5550 50  0001 C CNN
+F 1 "GND" H 3805 5627 50  0000 C CNN
+F 2 "" H 3800 5800 50  0001 C CNN
+F 3 "" H 3800 5800 50  0001 C CNN
+	1    3800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_+5V-RESCUE-GBProg2 #PWR023
+U 1 1 5A6CC563
+P 3800 5500
+F 0 "#PWR023" H 3800 5350 50  0001 C CNN
+F 1 "+5V" H 3815 5673 50  0000 C CNN
+F 2 "" H 3800 5500 50  0001 C CNN
+F 3 "" H 3800 5500 50  0001 C CNN
+	1    3800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:GBProg2-rescue_FT232R-ladecadence-RESCUE-GBProg2 U1
+U 1 1 5A72391A
+P 2100 6050
+F 0 "U1" H 2100 7637 60  0000 C CNN
+F 1 "FT232R" H 2100 7531 60  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 2100 6050 60  0001 C CNN
+F 3 "" H 2100 6050 60  0000 C CNN
+	1    2100 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5250 1400 5250
+Wire Wire Line
+	1250 5350 1400 5350
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR024
+U 1 1 5A71F298
+P 2000 7000
+F 0 "#PWR024" H 2000 6750 50  0001 C CNN
+F 1 "GND" H 2005 6827 50  0000 C CNN
+F 2 "" H 2000 7000 50  0001 C CNN
+F 3 "" H 2000 7000 50  0001 C CNN
+	1    2000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR025
+U 1 1 5A71F2DC
+P 2100 7000
+F 0 "#PWR025" H 2100 6750 50  0001 C CNN
+F 1 "GND" H 2105 6827 50  0000 C CNN
+F 2 "" H 2100 7000 50  0001 C CNN
+F 3 "" H 2100 7000 50  0001 C CNN
+	1    2100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR026
+U 1 1 5A71F320
+P 2200 7000
+F 0 "#PWR026" H 2200 6750 50  0001 C CNN
+F 1 "GND" H 2205 6827 50  0000 C CNN
+F 2 "" H 2200 7000 50  0001 C CNN
+F 3 "" H 2200 7000 50  0001 C CNN
+	1    2200 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6900 1800 7000
+Wire Wire Line
+	2000 6900 2000 7000
+Wire Wire Line
+	2100 6900 2100 7000
+Wire Wire Line
+	2200 6900 2200 7000
+Wire Wire Line
+	1400 6350 1200 6350
+Wire Wire Line
+	1200 6350 1200 6500
+Wire Wire Line
+	1250 4950 1400 4950
+Wire Wire Line
+	1250 4650 1250 4850
+Wire Wire Line
+	1400 4850 1250 4850
+Connection ~ 1250 4850
+Wire Wire Line
+	2950 4850 2800 4850
+Wire Wire Line
+	2950 4950 2800 4950
+$Comp
+L GBProg2-rescue:device_C-RESCUE-GBProg2 C1
+U 1 1 5A72014D
+P 900 6650
+F 0 "C1" H 950 6550 50  0000 L CNN
+F 1 "100n" H 950 6450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 938 6500 50  0001 C CNN
+F 3 "" H 900 6650 50  0001 C CNN
+	1    900  6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GBProg2-rescue:power_GND-RESCUE-GBProg2 #PWR027
+U 1 1 5A72019E
+P 900 6900
+F 0 "#PWR027" H 900 6650 50  0001 C CNN
+F 1 "GND" H 905 6727 50  0000 C CNN
+F 2 "" H 900 6900 50  0001 C CNN
+F 3 "" H 900 6900 50  0001 C CNN
+	1    900  6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5750 900  5750
+Wire Wire Line
+	900  5750 900  6500
+Wire Wire Line
+	900  6800 900  6900
+Wire Wire Line
+	950  1800 950  1900
+Wire Wire Line
+	4650 2400 4650 2450
+Wire Wire Line
+	5100 2000 5600 2000
+Wire Wire Line
+	5100 2400 5600 2400
+Wire Wire Line
+	5350 1500 5600 1500
+Wire Wire Line
+	5350 1500 5350 1550
+Wire Wire Line
+	7750 3100 7800 3100
+Wire Wire Line
+	7700 3000 7800 3000
+Wire Wire Line
+	7650 2900 7800 2900
+Wire Wire Line
+	1250 4850 1250 4950
+Text GLabel 2950 4850 2    60   Output ~ 0
+TXD
+Text GLabel 2950 4950 2    60   Input ~ 0
+RXD
+$EndSCHEMATC
